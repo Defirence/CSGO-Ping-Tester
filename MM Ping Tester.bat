@@ -1,11 +1,11 @@
 @ECHO OFF
 mode con: lines=68
-ECHO Ping To MM CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 10th 2018
+ECHO Ping To MM CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018
 ECHO ============================================================= 
 ECHO -AUTO PING MODE is (ENABLED)- Please wait while first pings are loading...
 :top
 color 07
-TITLE Ping To MM CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 10th 2018  (AUTO PING MODE)
+TITLE Ping To MM CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018  (AUTO PING MODE)
 :pads
 CALL:pingtest1 146.66.152.17 155.133.248.12 146.66.155.12 185.25.182.1
 CALL:pingtest2 103.28.54.3 103.10.124.9 45.121.184.1 185.25.183.4
@@ -13,7 +13,7 @@ CALL:pingtest3 146.66.156.211 146.66.180.211 155.133.228.100 155.133.241.24
 CALL:pingtest4 155.133.246.13 155.133.247.16
 CALL:pingtest5 155.133.238.162 155.133.238.163
 CLS
-ECHO Ping To MM CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 10th 2018
+ECHO Ping To MM CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018
 ECHO ============================================================= 
 ECHO.[EU West]
 ECHO - EU West, LUX (146.66.153.12):				  (%ms1%)
