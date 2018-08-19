@@ -1,11 +1,11 @@
 @ECHO OFF
 mode con: lines=68
-ECHO Ping To FaceIT CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 17th 2018
+ECHO Ping To FaceIT CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018
 ECHO ============================================================= 
 ECHO -AUTO PING MODE is (ENABLED)- Please wait while first pings are loading...
 :top
 color 07
-TITLE Ping To FaceIT CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 17th 2018
+TITLE Ping To FaceIT CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018
 :pads
 CALL:pingtest1 88.198.52.17 148.251.124.133 46.4.35.143 82.145.38.9
 CALL:pingtest2 185.16.86.1 62.210.84.115 195.154.170.125 163.172.8.51
@@ -13,7 +13,7 @@ CALL:pingtest3 195.154.170.125 46.166.189.17 185.16.84.57
 CALL:pingtest4 185.62.207.33
 CALL:pingtest5 165.73.240.107 165.73.240.108 165.73.240.118 165.73.240.110 165.73.240.115 165.73.240.109 165.73.240.116
 CLS
-ECHO Ping To FaceIT CSGO Servers v1.1 by Defirence (Original code by Weeeishy) - August 17th 2018
+ECHO Ping To FaceIT CSGO Servers v1.3 by Defirence (Original code by Weeeishy) - August 19th 2018
 ECHO ============================================================= 
 ECHO.[Germany]
 ECHO - Germany, DE (88.198.52.17):				    (%ms1%)
@@ -45,7 +45,7 @@ ECHO - Johannesburg, ZA (165.73.240.118):			(%ms15%)
 ECHO - Johannesburg, ZA (165.73.240.110):			(%ms16%)
 ECHO - Johannesburg, ZA (165.73.240.115):			(%ms17%)
 ECHO - Johannesburg, ZA (165.73.240.109):			(%ms18%)
-ECHO - Johannesburg, ZA (165.73.240.116):   (%ms19%)
+ECHO - Johannesburg, ZA (165.73.240.116):   		(%ms19%)
 ECHO.
 ECHO ============================================================= 
 ECHO -AUTO PING MODE is (ENABLED)- The pings will automatically keep refreshing.
