@@ -11,7 +11,11 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
 
+[![Conda](https://img.shields.io/conda/pn/conda-forge/python.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+
 Coded in Python3.6 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+
+.py script should work fine if you have Python 3.6 installed on Mac/Linux, Windows it should run as a standalone .exe but if it doesn't work just download and install Python 3.6.
 
 Please see "Releases" for latest builds + releases.
 
