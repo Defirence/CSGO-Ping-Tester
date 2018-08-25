@@ -7,9 +7,13 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
 
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/Defirence/CSGO-Ping-Tester)
 
-[![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+
+Coded in Python3.6 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+
+Please see "Releases" for latest builds + releases.
 
 Uses updated information from here: https://github.com/SteamDatabase/SteamTracking/blob/master/Random/NetworkDatagramConfig.json
 
