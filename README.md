@@ -37,11 +37,11 @@ python: python code goes here
 
 Go here
 
-![alt text]https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/Capture.PNG
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/Capture.PNG)
 
 and click this
 
-![alt text]https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/Capture2.PNG
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/Capture2.PNG)
 
 Alternatively click this link: https://github.com/Defirence/CSGO-Ping-Tester/releases
 
