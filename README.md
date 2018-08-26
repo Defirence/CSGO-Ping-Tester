@@ -31,6 +31,6 @@ python: python code goes here
 
 # Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/defirence/csgo-ping-tester/screenshots/screenshot1.png)
+(https://raw.githubusercontent.com/defirence/csgo-ping-tester/screenshots/screenshot1.png)
 
-![Screenshot](https://raw.githubusercontent.com/defirence/csgo-ping-tester/screenshots/screenshot2.png)
+(https://raw.githubusercontent.com/defirence/csgo-ping-tester/screenshots/screenshot2.png)
