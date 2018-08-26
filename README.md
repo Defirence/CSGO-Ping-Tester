@@ -33,4 +33,4 @@ python: python code goes here
 
 ![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
 
-![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot2.PNG)
