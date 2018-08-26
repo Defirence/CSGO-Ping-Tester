@@ -5,8 +5,6 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
 
-[![GitHub tag](https://img.shields.io/github/tag/expressjs/express.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
-
 [![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/Defirence/CSGO-Ping-Tester)
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
