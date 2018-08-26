@@ -31,6 +31,6 @@ python: python code goes here
 
 # Screenshots
 
-(https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
 
-(https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
