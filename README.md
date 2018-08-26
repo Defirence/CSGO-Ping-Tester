@@ -29,7 +29,7 @@ Tested on Windows 7 x64, unfortunately my PC is not good enough to run VM's and 
 
 # DIY / Compile it yourself
 
-Use pyinstaller with the argument:
+Use pyinstaller with the argument (and resources from the build folder):
 
 pyinstaller guimain.py
 
