@@ -29,7 +29,7 @@ Tested on Windows 7 x64, unfortunately my PC is not good enough to run VM's and 
 
 # Contributors
 
-Myself at the moment, if you want to be added as a contributer, open an issue and I'll add you!
+Myself at the moment, if you want to be added as a contributor, open an issue and I'll add you!
 
 # Branches
 
@@ -37,7 +37,7 @@ master: all ready-to-release and finished code/etc goes here
 
 batch-legacy: old, legacy batch scripts for referencing/keepsake
 
-python: python code goes here
+python: python code goes here, mainly for testing/commit in case PC crashes or everything goes to hell
 
 # Download Instructions
 
