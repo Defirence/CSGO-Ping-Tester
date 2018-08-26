@@ -1,4 +1,4 @@
-# CSGO-Ping-Tester
+# CSGO Ping Tester
 A tool that allows you to check your ping on different regions for Matchmaking, FaceIT, and ESEA servers with only 1-click.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
@@ -21,6 +21,10 @@ Uses updated information from here: https://github.com/SteamDatabase/SteamTracki
 
 Unfortunately, for the moment I cannot add South African ESEA servers due to there being limited information on the IP's they use, for the meantime there is an ESEA status tracker here: https://status.esea.net/
 
+# Contributors
+
+Myself at the moment, if you want to be added as a contributer, open an issue and I'll add you!
+
 # Branches
 
 master: all ready-to-release and finished code/etc goes here
@@ -28,6 +32,14 @@ master: all ready-to-release and finished code/etc goes here
 batch-legacy: old, legacy batch scripts for referencing/keepsake
 
 python: python code goes here
+
+# Download Instructions
+
+Go here
+
+and click this
+
+Alternatively click this link: 
 
 # Screenshots
 
