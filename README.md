@@ -20,3 +20,17 @@ Please see "Releases" for latest builds + releases.
 Uses updated information from here: https://github.com/SteamDatabase/SteamTracking/blob/master/Random/NetworkDatagramConfig.json
 
 Unfortunately, for the moment I cannot add South African ESEA servers due to there being limited information on the IP's they use, for the meantime there is an ESEA status tracker here: https://status.esea.net/
+
+# Branches
+
+master: all ready-to-release and finished code/etc goes here
+
+batch-legacy: old, legacy batch scripts for referencing/keepsake
+
+python: python code goes here
+
+# Screenshots
+
+![alt text](https://raw.githubusercontent.com/defirence/csgo-ping-tester/master/screenshot1.png)
+
+![alt text](https://raw.githubusercontent.com/defirence/csgo-ping-tester/master/screenshot2.png)
