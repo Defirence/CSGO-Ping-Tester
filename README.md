@@ -21,6 +21,12 @@ Uses updated information from here: https://github.com/SteamDatabase/SteamTracki
 
 Unfortunately, for the moment I cannot add South African ESEA servers due to there being limited information on the IP's they use, for the meantime there is an ESEA status tracker here: https://status.esea.net/
 
+# Testing
+
+Tested on Windows 7 x64, unfortunately my PC is not good enough to run VM's and test on older versions of Windows, and including Mac OS X + Linux. If someone out there is nice enough to possibly allow me access to VM's or VPS's to test please contact me at
+
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/contact.PNG)
+
 # Contributors
 
 Myself at the moment, if you want to be added as a contributer, open an issue and I'll add you!
