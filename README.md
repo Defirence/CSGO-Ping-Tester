@@ -27,6 +27,12 @@ Tested on Windows 7 x64, unfortunately my PC is not good enough to run VM's and 
 
 ![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/contact.PNG)
 
+# DIY / Compile it yourself
+
+Use pyinstaller with the argument:
+
+pyinstaller guimain.py
+
 # Contributors
 
 Myself at the moment, if you want to be added as a contributor, open an issue and I'll add you!
