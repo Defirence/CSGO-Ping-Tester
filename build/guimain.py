@@ -57,8 +57,8 @@ class Window(Frame):
         swedenButton = Button(self, text="ESEA Sweden", command=self.esea_sweden)
         swedenButton.place(x=0, y=240)
 
-        spainButton = Button(self, text="ESEA Spain", command=self.esea_spain)
-        spainButton.place(x=0, y=264)
+        #   spainButton = Button(self, text="ESEA Spain", command=self.esea_spain)
+        #        spainButton.place(x=0, y=264)
 
         #   start adding faceit (tkinter) buttons below
 
@@ -126,39 +126,39 @@ class Window(Frame):
         valvemm_euw_twoButton = Button(self, text="Valve EU West 2", command=self.valve_euw_two)
         valvemm_euw_twoButton.place(x=284, y=24)
 
-        valvemm_eue_oneButton = Button(self, text="Valve EU East 1", command=self.valve_eue_one)
+        valvemm_eue_oneButton = Button(self, text="Valve EU East", command=self.valve_eue_one)
         valvemm_eue_oneButton.place(x=284, y=48)
 
         valvemm_sweden_oneButton = Button(self, text="Valve Sweden 1", command=self.valve_sweden_one)
         valvemm_sweden_oneButton.place(x=284, y=72)
 
-        valvemm_sweden_twoButton = Button(self, text="Valve Sweden 2", command=self.valve_sweden_two)
-        valvemm_sweden_twoButton.place(x=284, y=96)
+    #   valvemm_sweden_twoButton = Button(self, text="Valve Sweden 2", command=self.valve_sweden_two)
+    #   valvemm_sweden_twoButton.place(x=284, y=96)
 
         valvemm_mideastButton = Button(self, text="Valve Middle East", command=self.valve_middleeast)
-        valvemm_mideastButton.place(x=284, y=120)
+        valvemm_mideastButton.place(x=284, y=96)
 
         valvemm_poland_oneButton = Button(self, text="Valve Poland 1", command=self.valve_poland_one)
-        valvemm_poland_oneButton.place(x=284, y=144)
+        valvemm_poland_oneButton.place(x=284, y=120)
 
         valvemm_poland_twoButton = Button(self, text="Valve Poland 2", command=self.valve_poland_two)
-        valvemm_poland_twoButton.place(x=284, y=168)
+        valvemm_poland_twoButton.place(x=284, y=144)
 
         valvemm_spain_oneButton = Button(self, text="Valve Spain 1", command=self.valve_spain_one)
-        valvemm_spain_oneButton.place(x=284, y=192)
+        valvemm_spain_oneButton.place(x=284, y=168)
 
         valvemm_spain_twoButton = Button(self, text="Valve Spain 2", command=self.valve_spain_two)
-        valvemm_spain_twoButton.place(x=284, y=216)
+        valvemm_spain_twoButton.place(x=284, y=192)
 
         valvemm_southafrica_oneButton = Button(self, text="Valve South Africa 1", command=self.valve_southafrica_one)
-        valvemm_southafrica_oneButton.place(x=284, y=240)
+        valvemm_southafrica_oneButton.place(x=284, y=216)
 
         valvemm_southafrica_twoButton = Button(self, text="Valve South Africa 2", command=self.valve_southafrica_two)
-        valvemm_southafrica_twoButton.place(x=284, y=264)
+        valvemm_southafrica_twoButton.place(x=284, y=240)
 
-    #   it would actually help to remember to write the Button syntax correctly
-    #   leaving this comment as a reminder to check the
-    #   syntax for buttons and button.place
+    #   commented out ESEA Spain because it no longer works
+    #   and also Valve Sweden 2 because there is no reply on the ping
+    #   so that basically leaves a useless function + button
 
     #   start defining esea server functions below
 
@@ -281,7 +281,6 @@ class Window(Frame):
         print("Ping Test Complete")
 
         return pingstatus
-
 
     @staticmethod
     def esea_netherlandsone():
