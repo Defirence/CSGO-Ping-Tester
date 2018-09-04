@@ -36,8 +36,8 @@ class Window(Frame):
         gbtwoButton = Button(self, text="ESEA Great Britain 2", command=self.esea_gbtwo)
         gbtwoButton.place(x=0, y=72)
 
-        franceoneButton = Button(self, text="ESEA France 1", command=self.esea_franceone)
-        franceoneButton.place(x=0, y=96)
+     #   franceoneButton = Button(self, text="ESEA France 1", command=self.esea_franceone)
+     #   franceoneButton.place(x=0, y=96)
 
         francetwoButton = Button(self, text="ESEA France 2", command=self.esea_francetwo)
         francetwoButton.place(x=0, y=120)
@@ -222,20 +222,20 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_franceone():
+    #   @staticmethod
+    #   def esea_franceone():
 
-        print("Pinging ESEA France 1")
-        hostname = "37.187.68.60"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            pingstatus = "Active"
-        else:
-            pingstatus = "Error"
+    #   print("Pinging ESEA France 1")
+    #   hostname = "37.187.68.60"
+    #   response = os.system("ping " + hostname)
+    #   if response == 0:
+    #   pingstatus = "Active"
+    #   else:
+    #   pingstatus = "Error"
 
-        print("Ping Test Complete")
+    #   print("Ping Test Complete")
 
-        return pingstatus
+    #   return pingstatus
 
     @staticmethod
     def esea_francetwo():
