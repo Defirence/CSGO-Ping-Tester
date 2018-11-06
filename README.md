@@ -9,8 +9,6 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
 
-[![Conda](https://img.shields.io/conda/pn/conda-forge/python.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
-
 # Current Project Status:
 
 Attempting a MacOS version but unfortunately too busy with work, so this project is dormant for now until I have spare time to work on it. If you want to, please fork and update as necessary.
