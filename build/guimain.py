@@ -27,8 +27,8 @@ class Window(Frame):
         eseagermanyoneButton = Button(self, text="ESEA Germany 1", command=self.esea_germany_one)
         eseagermanyoneButton.place(x=0, y=0)
 
-        eseagermanytwoButton = Button(self, text="ESEA Germany 2", command=self.esea_germany_two)
-        eseagermanytwoButton.place(x=0, y=24)
+        #   eseagermanytwoButton = Button(self, text="ESEA Germany 2", command=self.esea_germany_two)
+        #   eseagermanytwoButton.place(x=0, y=24)
 
         gboneButton = Button(self, text="ESEA Great Britain 1", command=self.esea_gbone)
         gboneButton.place(x=0, y=48)
@@ -65,8 +65,8 @@ class Window(Frame):
         faceitgermanyoneButton = Button(self, text="FACEIT Germany 1", command=self.faceitgermanyone)
         faceitgermanyoneButton.place(x=140, y=0)
 
-        faceitgermanytwoButton = Button(self, text="FACEIT Germany 2", command=self.faceitgermanytwo)
-        faceitgermanytwoButton.place(x=140, y=24)
+        #   faceitgermanytwoButton = Button(self, text="FACEIT Germany 2", command=self.faceitgermanytwo)
+        #   faceitgermanytwoButton.place(x=140, y=24)
 
         faceitgermanythreeButton = Button(self, text="FACEIT Germany 3", command=self.faceitgermanythree)
         faceitgermanythreeButton.place(x=140, y=48)
