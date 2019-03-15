@@ -1,4 +1,4 @@
-# CSGO Ping Tester
+# CSGO Ping Tester v1.6
 A tool that allows you to check your ping on different regions for Matchmaking, FaceIT, and ESEA servers with only 1-click.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
@@ -11,11 +11,13 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 # Current Project Status:
 
-Attempting a MacOS version but unfortunately too busy with work, so this project is dormant for now until I have spare time to work on it. If you want to, please fork and update as necessary.
+Development on this project has resumed! I've fixed the cross-platform issue by using WINE on my MacOS laptop, I'm busy cleaning up code and refactoring, optimizing and so forth.
 
 Coded in Python3.6 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 .py script should work fine if you have Python 3.6 installed on Mac/Linux, Windows it should run as a standalone .exe but if it doesn't work just download and install Python 3.6.
+
+.exe file will work on MacOS + Linux, just install the latest stable version of Wine.
 
 Please see "Releases" for latest builds + releases.
 
@@ -25,9 +27,7 @@ Unfortunately, for the moment I cannot add South African ESEA servers due to the
 
 # Testing
 
-Tested on Windows 7 x64, unfortunately my PC is not good enough to run VM's and test on older versions of Windows, and including Mac OS X + Linux. If someone out there is nice enough to possibly allow me access to VM's or VPS's to test please contact me at
-
-![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/contact.PNG)
+Works on Windows, MacOS and Linux (pre-1.6 won't work on MacOS or Linux, but you can try)
 
 # DIY / Compile it yourself
 
@@ -45,7 +45,7 @@ master: all ready-to-release and finished code/etc goes here
 
 batch-legacy: old, legacy batch scripts for referencing/keepsake
 
-python: python code goes here, mainly for testing/commit in case PC crashes or everything goes to hell
+python: python code goes here, mainly for testing/commit in case PC crashes or everything goes to hell, going to use this as a staging/pre-release branch.
 
 # Download Instructions
 
