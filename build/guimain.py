@@ -14,7 +14,7 @@ class Window(Frame):
 
     def init_window(self):
 
-        self.master.title("CSGO Ping Tester v1.5 by Defirence")
+        self.master.title("CSGO Ping Tester v1.7 by Defirence")
 
         self.pack(fill=BOTH, expand=1)
 
@@ -27,8 +27,8 @@ class Window(Frame):
         eseagermanyoneButton = Button(self, text="ESEA Germany 1", command=self.esea_germany_one)
         eseagermanyoneButton.place(x=0, y=0)
 
-        #   eseagermanytwoButton = Button(self, text="ESEA Germany 2", command=self.esea_germany_two)
-        #   eseagermanytwoButton.place(x=0, y=24)
+        eseagermanytwoButton = Button(self, text="ESEA Germany 2", command=self.esea_germany_two)
+        eseagermanytwoButton.place(x=0, y=24)
 
         gboneButton = Button(self, text="ESEA Great Britain 1", command=self.esea_gbone)
         gboneButton.place(x=0, y=48)
@@ -384,20 +384,20 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitgermanytwo():
-
-        print("Pinging FACEIT Germany 2")
-        hostname = "148.251.124.133"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            pingstatus = "Active"
-        else:
-            pingstatus = "Error"
-
-        print("Ping Test Complete")
-
-        return pingstatus
+    #   @staticmethod
+    #   def faceitgermanytwo():
+    #
+    #    print("Pinging FACEIT Germany 2")
+    #    hostname = "148.251.124.133"
+    #    response = os.system("ping " + hostname)
+    #    if response == 0:
+    #        pingstatus = "Active"
+    #    else:
+    #        pingstatus = "Error"
+    #
+    #    print("Ping Test Complete")
+    #
+    #        return pingstatus
 
     @staticmethod
     def faceitgermanythree():
