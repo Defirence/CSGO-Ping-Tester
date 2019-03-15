@@ -17,7 +17,7 @@ Coded in Python3.6 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried
 
 .py script should work fine if you have Python 3.6 installed on Mac/Linux, Windows it should run as a standalone .exe but if it doesn't work just download and install Python 3.6.
 
-.exe file will work on MacOS + Linux, just install the latest stable version.
+.exe file will work on MacOS + Linux, just install the latest stable version of Wine.
 
 Please see "Releases" for latest builds + releases.
 
