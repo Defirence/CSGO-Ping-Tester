@@ -167,7 +167,7 @@ class Window(Frame):
 
         print("Pinging ESEA Germany 1")
         hostname = "85.131.152.1"
-        response = os.system("ping " + hostname)
+        response = os.system("ping -c 4 " + hostname)
         if response == 0:
             pingstatus = "Active"
         else:
