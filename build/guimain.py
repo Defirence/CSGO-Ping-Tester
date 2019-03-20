@@ -1,6 +1,5 @@
 from tkinter import *
-
-import os, subprocess
+import os
 
 
 class Window(Frame):
@@ -10,7 +9,7 @@ class Window(Frame):
         self.master = master
         self.init_window()
 
-    #   define function for tkinter window
+    #   define function for tkinter_gui_lib window
 
     def init_window(self):
 
@@ -18,7 +17,7 @@ class Window(Frame):
 
         self.pack(fill=BOTH, expand=1)
 
-        #   start adding esea (tkinter) buttons
+        #   begin adding ESEA Matchmaking (tkinter_gui_lib) buttons
         #   button label length determines button size
 
         quitButton = Button(self, text="Quit", command=self.client_exit)
@@ -35,9 +34,6 @@ class Window(Frame):
 
         gbtwoButton = Button(self, text="ESEA Great Britain 2", command=self.esea_gbtwo)
         gbtwoButton.place(x=0, y=72)
-
-#        franceoneButton = Button(self, text="ESEA France 1", command=self.esea_franceone)
-#        franceoneButton.place(x=0, y=96)
 
         francetwoButton = Button(self, text="ESEA France 2", command=self.esea_francetwo)
         francetwoButton.place(x=0, y=120)
@@ -57,16 +53,10 @@ class Window(Frame):
         swedenButton = Button(self, text="ESEA Sweden", command=self.esea_sweden)
         swedenButton.place(x=0, y=240)
 
-        #   spainButton = Button(self, text="ESEA Spain", command=self.esea_spain)
-        #        spainButton.place(x=0, y=264)
-
-        #   start adding faceit (tkinter) buttons below
+        #   begin adding FACEIT Matchmaking (tkinter_gui_lib) buttons below.
 
         faceitgermanyoneButton = Button(self, text="FACEIT Germany 1", command=self.faceitgermanyone)
         faceitgermanyoneButton.place(x=140, y=0)
-
-        #   faceitgermanytwoButton = Button(self, text="FACEIT Germany 2", command=self.faceitgermanytwo)
-        #   faceitgermanytwoButton.place(x=140, y=24)
 
         faceitgermanythreeButton = Button(self, text="FACEIT Germany 3", command=self.faceitgermanythree)
         faceitgermanythreeButton.place(x=140, y=48)
@@ -118,7 +108,7 @@ class Window(Frame):
                                               command=self.faceitsouthafricaseven)
         faceitsouthafricasevenButton.place(x=140, y=408)
 
-        #   start adding valve matchmaking (tkinter) buttons below
+        #   begin adding valve matchmaking (tkinter_gui_lib) buttons below.
 
         valvemm_euw_oneButton = Button(self, text="Valve EU West 1", command=self.valve_euw_one)
         valvemm_euw_oneButton.place(x=284, y=0)
@@ -162,8 +152,7 @@ class Window(Frame):
 
     #   start defining esea server functions below
 
-    @staticmethod
-    def esea_germany_one():
+    def esea_germany_one(self):
 
         print("Pinging ESEA Germany 1")
         hostname = "85.131.152.1"
@@ -177,8 +166,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_germany_two():
+    def esea_germany_two(self):
 
         print("Pinging ESEA Germany 2")
         hostname = "85.131.251.5"
@@ -192,8 +180,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_gbone():
+    def esea_gbone(self):
 
         print("Pinging ESEA Great Britain 1")
         hostname = "37.122.249.1"
@@ -207,8 +194,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_gbtwo():
+    def esea_gbtwo(self):
 
         print("Pinging ESEA Great Britain 2")
         hostname = "46.166.179.179"
@@ -222,23 +208,9 @@ class Window(Frame):
 
         return pingstatus
 
-    #       @staticmethod
-    #       def esea_franceone():
+    # removed old function to improve run time.
 
-    #    print("Pinging ESEA France 1")
-    #    hostname = "37.187.68.60"
-    #    response = os.system("ping " + hostname)
-    #    if response == 0:
-    #        pingstatus = "Active"
-    #    else:
-    #        pingstatus = "Error"
-
-    #    print("Ping Test Complete")
-
-    #    return pingstatus
-
-    @staticmethod
-    def esea_francetwo():
+    def esea_francetwo(self):
 
         print("Pinging ESEA France 2")
         hostname = "46.105.104.65"
@@ -252,8 +224,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_francethree():
+    def esea_francethree(self):
 
         print("Pinging ESEA France 3")
         hostname = "176.31.234.4"
@@ -267,8 +238,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_francefour():
+    def esea_francefour(self):
 
         print("Pinging ESEA France 4")
         hostname = "5.39.72.43"
@@ -282,8 +252,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_netherlandsone():
+    def esea_netherlandsone(self):
 
         print("Pinging ESEA Netherlands 1")
         hostname = "77.247.178.10"
@@ -297,8 +266,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_netherlandstwo():
+    def esea_netherlandstwo(self):
 
         print("Pinging ESEA Netherlands 2")
         hostname = "109.201.133.100"
@@ -312,8 +280,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_sweden():
+    def esea_sweden(self):
 
         print("Pinging ESEA Sweden")
         hostname = "37.0.123.1"
@@ -327,8 +294,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_spain():
+    def esea_spain(self):
 
         print("Pinging ESEA Spain")
         hostname = "82.98.141.43"
@@ -342,8 +308,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def esea_turkey():
+    def esea_turkey(self):
 
         print("Pinging ESEA Turkey")
         hostname = "31.210.68.1"
@@ -357,20 +322,11 @@ class Window(Frame):
 
         return pingstatus
 
-    #   finish defining esea server functions
+    #   finish defining esea server functions.
 
-    #   start defining faceit server functions below
+    #   start defining faceit server functions below.
 
-    #   I only realized very far into this project that function values (?)
-    #   or strings can be defined with numbers like so
-    #   def faceitgermany1(self):
-    #   def faceitgermany2(self): etc
-    #   it does still work if you want to rather optimize/change the code to run like that
-    #   if I do have to change the function naming convention to numbers I'd have to edit the entire code
-    #   to reflect this, I'll probably do it at a later stage
-
-    @staticmethod
-    def faceitgermanyone():
+    def faceitgermanyone(self):
 
         print("Pinging FACEIT Germany 1")
         hostname = "88.198.52.17"
@@ -384,23 +340,9 @@ class Window(Frame):
 
         return pingstatus
 
-    #   @staticmethod
-    #   def faceitgermanytwo():
-    #
-    #    print("Pinging FACEIT Germany 2")
-    #    hostname = "148.251.124.133"
-    #    response = os.system("ping " + hostname)
-    #    if response == 0:
-    #        pingstatus = "Active"
-    #    else:
-    #        pingstatus = "Error"
-    #
-    #    print("Ping Test Complete")
-    #
-    #        return pingstatus
+    # removed old function to improve run time
 
-    @staticmethod
-    def faceitgermanythree():
+    def faceitgermanythree(self):
 
         print("Ping FACEIT Germany 3")
         hostname = "46.4.35.143"
@@ -414,8 +356,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitgbone():
+    def faceitgbone(self):
 
         print("Pinging FACEIT Great Britain 1")
         hostname = "82.145.38.91"
@@ -429,8 +370,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitgbtwo():
+    def faceitgbtwo(self):
 
         print("Pinging FACEIT Great Britain 2")
         hostname = "185.16.86.1"
@@ -444,8 +384,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitgbthree():
+    def faceitgbthree(self):
 
         print("Pinging FACEIT Great Britain 3")
         hostname = "87.117.219.99"
@@ -459,8 +398,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitfranceone():
+    def faceitfranceone(self):
 
         print("Pinging FACEIT France 1")
         hostname = "62.210.84.115"
@@ -474,8 +412,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitfrancetwo():
+    def faceitfrancetwo(self):
 
         print("Pinging FACEIT France 2")
         hostname = "163.172.8.51"
@@ -489,8 +426,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitfrancethree():
+    def faceitfrancethree(self):
 
         print("Pinging FACEIT France 3")
         hostname = "195.154.170.125"
@@ -504,8 +440,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitnetherlandsone():
+    def faceitnetherlandsone(self):
 
         print("Pinging FACEIT Netherlands 1")
         hostname = "46.166.189.17"
@@ -519,8 +454,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitnetherlandstwo():
+    def faceitnetherlandstwo(self):
 
         print("Pinging FACEIT Netherlands 2")
         hostname = "185.16.84.57"
@@ -534,8 +468,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsweden():
+    def faceitsweden(self):
 
         print("Pinging FACEIT Sweden 1")
         hostname = "185.62.207.33"
@@ -549,8 +482,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricaone():
+    def faceitsouthafricaone(self):
 
         print("Pinging FACEIT South Africa 1")
         hostname = "165.73.240.107"
@@ -564,8 +496,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricatwo():
+    def faceitsouthafricatwo(self):
 
         print("Pinging FACEIT South Africa 2")
         hostname = "165.73.240.108"
@@ -579,8 +510,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricathree():
+    def faceitsouthafricathree(self):
 
         print("Pinging FACEIT South Africa 3")
         hostname = "165.73.240.118"
@@ -594,8 +524,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricafour():
+    def faceitsouthafricafour(self):
 
         print("Pinging FACEIT South Africa 4")
         hostname = "165.73.240.110"
@@ -609,8 +538,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricafive():
+    def faceitsouthafricafive(self):
 
         print("Pinging FACEIT South Africa 5")
         hostname = "165.73.240.115"
@@ -624,8 +552,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricasix():
+    def faceitsouthafricasix(self):
 
         print("Pinging FACEIT South Africa 6")
         hostname = "165.73.240.109"
@@ -639,8 +566,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def faceitsouthafricaseven():
+    def faceitsouthafricaseven(self):
 
         print("Pinging FACEIT South Africa 7")
         hostname = "165.73.240.116"
@@ -658,8 +584,7 @@ class Window(Frame):
 
     #   start defining valve matchmaking server functions below
 
-    @staticmethod
-    def valve_euw_one():
+    def valve_euw_one(self):
 
         print("Pinging Valve EUW 1")
         hostname = "146.66.153.12"
@@ -673,8 +598,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_euw_two():
+    def valve_euw_two(self):
 
         print("Pinging Valve EUW 2")
         hostname = "146.66.153.12"
@@ -688,8 +612,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_eue_one():
+    def valve_eue_one(self):
 
         print("Pinging Valve EUE 1")
         hostname = "146.66.155.12"
@@ -703,8 +626,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_eue_two():
+    def valve_eue_two(self):
 
         print("Pinging Valve EUE 2")
         hostname = "146.66.155.1"
@@ -718,8 +640,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_singapore():
+    def valve_singapore(self):
 
         print("Pinging Valve Singapore 1")
         hostname = "103.28.54.3"
@@ -733,8 +654,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_singapore_two():
+    def valve_singapore_two(self):
 
         print("Pinging Valve Singapore 2")
         hostname = "103.10.124.9"
@@ -748,8 +668,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_singapore_three():
+    def valve_singapore_three(self):
 
         print("Pinging Valve Singapore 3")
         hostname = "45.121.184.1"
@@ -763,8 +682,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_middleeast():
+    def valve_middleeast(self):
 
         print("Pinging Valve Middle-East")
         hostname = "185.25.183.4"
@@ -778,8 +696,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_sweden_one():
+    def valve_sweden_one(self):
 
         print("Pinging Valve Sweden 1")
         hostname = "146.66.156.211"
@@ -793,8 +710,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_sweden_two():
+    def valve_sweden_two(self):
 
         print("Pinging Valve Sweden 2")
         hostname = "146.66.180.211"
@@ -808,8 +724,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_poland_one():
+    def valve_poland_one(self):
 
         print("Pinging Valve Poland One")
         hostname = "155.133.228.100"
@@ -823,8 +738,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_poland_two():
+    def valve_poland_two(self):
 
         print("Pinging Valve Poland 2")
         hostname = "155.133.241.24"
@@ -838,8 +752,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_spain_one():
+    def valve_spain_one(self):
 
         print("Pinging Valve Spain 1")
         hostname = "155.133.246.13"
@@ -853,8 +766,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_spain_two():
+    def valve_spain_two(self):
 
         print("Pinging Valve Spain 2")
         hostname = "155.133.247.16"
@@ -868,8 +780,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_southafrica_one():
+    def valve_southafrica_one(self):
 
         print("Pinging Valve South Africa 1")
         hostname = "155.133.238.162"
@@ -883,8 +794,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def valve_southafrica_two():
+    def valve_southafrica_two(self):
 
         print("Pinging Valve South Africa 2")
         hostname = "155.133.238.163"
@@ -898,8 +808,7 @@ class Window(Frame):
 
         return pingstatus
 
-    @staticmethod
-    def client_exit():
+    def client_exit(self):
         sys.exit()
 
 
