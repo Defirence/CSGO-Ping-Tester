@@ -13,7 +13,7 @@ class Window(Frame):
 
     def init_window(self):
 
-        self.master.title("CSGO Ping Tester v1.7 by Defirence")
+        self.master.title("CSGO Ping Tester v2.0 by Defirence")
 
         self.pack(fill=BOTH, expand=1)
 
@@ -121,9 +121,6 @@ class Window(Frame):
 
         valvemm_sweden_oneButton = Button(self, text="Valve Sweden 1", command=self.valve_sweden_one)
         valvemm_sweden_oneButton.place(x=284, y=72)
-
-    #   valvemm_sweden_twoButton = Button(self, text="Valve Sweden 2", command=self.valve_sweden_two)
-    #   valvemm_sweden_twoButton.place(x=284, y=96)
 
         valvemm_mideastButton = Button(self, text="Valve Middle East", command=self.valve_middleeast)
         valvemm_mideastButton.place(x=284, y=96)
@@ -798,7 +795,7 @@ class Window(Frame):
     def valve_southafrica_two(self):
 
         print("Pinging Valve South Africa 2")
-        hostname = "155.133.238.163"
+        hostname = "155.133.238.163 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             pingstatus = "Active"
