@@ -7,7 +7,7 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 Development on this project has resumed! I've fixed the cross-platform issue by using WINE on my MacOS laptop, I'm busy cleaning up code and refactoring, optimizing and so forth.
 
-Written in Python 3.6 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+Written in Python 3.7 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows. Just have to try and set up the correct VM's to compile with for Windows, MacOS, Unix and so forth.
 
