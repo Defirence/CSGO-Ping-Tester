@@ -582,7 +582,7 @@ class Window(Frame):
 
     def valve_euw_one(self):
 
-        print("Pinging Valve EUW 1")
+        print("Pinging Valve EUW 1 Relay")
         hostname = "146.66.153.12"
         response = os.system("ping " + hostname)
         if response == 0:
