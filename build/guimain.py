@@ -480,7 +480,7 @@ class Window(Frame):
     def faceitsouthafricaone(self):
 
         print("Pinging FACEIT South Africa 1")
-        hostname = "165.73.240.107"
+        hostname = "165.73.240.107 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -550,7 +550,7 @@ class Window(Frame):
     def faceitsouthafricasix(self):
 
         print("Pinging FACEIT South Africa 6")
-        hostname = "165.73.240.109"
+        hostname = "165.73.240.109 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -582,7 +582,7 @@ class Window(Frame):
     def valve_euw_one(self):
 
         print("Pinging Valve EUW 1 Relay")
-        hostname = "146.66.153.12"
+        hostname = "146.66.153.12 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -596,7 +596,7 @@ class Window(Frame):
     def valve_euw_two(self):
 
         print("Pinging Valve EUW 2")
-        hostname = "146.66.153.12"
+        hostname = "146.66.153.12 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -610,7 +610,7 @@ class Window(Frame):
     def valve_eue_one(self):
 
         print("Pinging Valve EUE 1")
-        hostname = "146.66.155.12"
+        hostname = "146.66.155.12 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -624,7 +624,7 @@ class Window(Frame):
     def valve_eue_two(self):
 
         print("Pinging Valve EUE 2")
-        hostname = "146.66.155.1"
+        hostname = "146.66.155.1 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -638,7 +638,7 @@ class Window(Frame):
     def valve_singapore(self):
 
         print("Pinging Valve Singapore 1")
-        hostname = "103.28.54.3"
+        hostname = "103.28.54.3 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -652,7 +652,7 @@ class Window(Frame):
     def valve_singapore_two(self):
 
         print("Pinging Valve Singapore 2")
-        hostname = "103.10.124.9"
+        hostname = "103.10.124.9 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -666,7 +666,7 @@ class Window(Frame):
     def valve_singapore_three(self):
 
         print("Pinging Valve Singapore 3")
-        hostname = "45.121.184.1"
+        hostname = "45.121.184.1 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -680,7 +680,7 @@ class Window(Frame):
     def valve_middleeast(self):
 
         print("Pinging Valve Middle-East")
-        hostname = "185.25.183.4"
+        hostname = "185.25.183.4 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -694,7 +694,7 @@ class Window(Frame):
     def valve_sweden_one(self):
 
         print("Pinging Valve Sweden 1")
-        hostname = "146.66.156.211"
+        hostname = "146.66.156.211 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -722,7 +722,7 @@ class Window(Frame):
     def valve_poland_one(self):
 
         print("Pinging Valve Poland One")
-        hostname = "155.133.228.100"
+        hostname = "155.133.228.100 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -736,7 +736,7 @@ class Window(Frame):
     def valve_poland_two(self):
 
         print("Pinging Valve Poland 2")
-        hostname = "155.133.241.24"
+        hostname = "155.133.241.24 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -750,7 +750,7 @@ class Window(Frame):
     def valve_spain_one(self):
 
         print("Pinging Valve Spain 1")
-        hostname = "155.133.246.13"
+        hostname = "155.133.246.13 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -764,7 +764,7 @@ class Window(Frame):
     def valve_spain_two(self):
 
         print("Pinging Valve Spain 2")
-        hostname = "155.133.247.16"
+        hostname = "155.133.247.16 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
@@ -778,7 +778,7 @@ class Window(Frame):
     def valve_southafrica_one(self):
 
         print("Pinging Valve South Africa 1")
-        hostname = "155.133.238.162"
+        hostname = "155.133.238.162 -c 4"
         response = os.system("ping " + hostname)
         if response == 0:
             ping = "Ping Successful"
