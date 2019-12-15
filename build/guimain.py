@@ -1,6 +1,7 @@
 from tkinter import *
 import os
 
+
 class Window(Frame):
 
     def __init__(self, master=None):
@@ -333,9 +334,6 @@ class Window(Frame):
         print(ping)
 
         return ping
-
-    # removed old function to improve run time
-    # but I add two comment lines which will impact loading time lol
 
     def faceitgermanythree(self):
 
