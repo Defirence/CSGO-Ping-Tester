@@ -5,7 +5,7 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 # Current Project Status:
 
-Written in Python 3.7 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over. (Currently re-writing and optimizing for Python 3.8)
+Written in Python with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows.
 
