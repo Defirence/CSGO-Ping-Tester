@@ -654,3 +654,5 @@ root = Tk()
 root.geometry("550x450")
 app = Window(root)
 root.mainloop()
+
+# Thanks for using my program
