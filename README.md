@@ -1,13 +1,13 @@
 # CSGO Ping Tester v2.0
 A tool that allows you to check your ping on different regions for Matchmaking, FaceIT, and ESEA servers with only 1-click.
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://www.python.org/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/) [![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/Defirence/CSGO-Ping-Tester) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://www.python.org/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
 
 # Current Project Status:
 
-Written in Python 3.7 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+Written in Python 3.7 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over. (Currently re-writing and optimizing for Python 3.8)
 
-I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows. Just have to try and set up the correct VM's to compile with for Windows, MacOS, Unix and so forth.
+I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows.
 
 Please see "Releases" for latest builds + releases.
 
@@ -17,7 +17,8 @@ Unfortunately, for the moment I cannot add South African ESEA servers due to the
 
 # Dependencies
 
-UNIX, Linux, MacOS: Wine
+For UNIX, Linux, MacOS: Wine
+Windows: None, all included libraries are in the compiled .exe file.
 
 # Instructions
 
