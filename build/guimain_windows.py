@@ -1,6 +1,6 @@
 from tkinter import *
+import tkinter.messagebox
 import os
-
 
 class Window(Frame):
 
@@ -132,13 +132,10 @@ class Window(Frame):
         hostname = "85.131.251.5"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_gbone(self):
 
@@ -665,7 +662,7 @@ class Window(Frame):
 
 
 root = Tk()
-root.geometry("550x450")
+root.geometry("549x243")
 app = Window(root)
 root.mainloop()
 
