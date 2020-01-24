@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter.messagebox
 import os
 
 
@@ -11,7 +12,7 @@ class Window(Frame):
 
     def init_window(self):
 
-        self.master.title('CSGO Ping Tester v2.1 by Defirence')
+        self.master.title('CSGO Ping Tester v2.2 by Defirence')
 
         self.pack(fill=BOTH, expand=1)
 
