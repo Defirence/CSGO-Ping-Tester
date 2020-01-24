@@ -132,10 +132,13 @@ class Window(Frame):
         hostname = "85.131.251.5"
         response = os.system("ping " + hostname)
         if response == 0:
-            result = "Ping Successful"
+            ping = "Ping Successful"
         else:
-            result = "Ping Unsuccessful"
-        tkinter.messagebox.showinfo("Complete", result)
+            ping = "Ping Unsuccessful"
+
+        print(ping)
+
+        return ping
 
     def esea_gbone(self):
 
