@@ -5,6 +5,10 @@ A tool that allows you to check your ping on different regions for Matchmaking, 
 
 # Current Project Status:
 
+Current Development Status: Frozen/Halted/Stopped. I currently don't have spare time to maintain the servers and code for this project as I'm working full time. If you would like to maintain or fork this project, go ahead, but PLEASE use the original licence from the original author in your fork/clone to avoid any legal issues.
+
+As soon as I have time and environments to compile new builds for different OS'ses (Linux and MacOS) I'll commit and release as soon as possible.
+
 Written in Python with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows.
