@@ -24,6 +24,7 @@ Unfortunately, for the moment I cannot add South African ESEA servers due to the
 # Dependencies
 
 For UNIX, Linux, MacOS: Wine
+
 Windows: None, all included libraries are in the compiled .exe file.
 
 # Instructions
