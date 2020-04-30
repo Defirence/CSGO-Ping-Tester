@@ -1,4 +1,4 @@
-# CSGO Ping Tester v2.1
+# CSGO Ping Tester v2.2
 A tool that allows you to check your ping on different regions for Matchmaking, FaceIT, and ESEA servers with only 1-click.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]
@@ -13,7 +13,7 @@ I currently don't have spare time to maintain the servers and code for this proj
 
 As soon as I have time and environments to compile new builds for different OS'ses (Linux and MacOS) I'll commit and release as soon as possible.
 
-Written in Python 3.8 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+Written in Python 3.8.1 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 Please see "Releases" for latest builds + releases.
 
