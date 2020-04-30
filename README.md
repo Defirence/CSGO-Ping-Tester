@@ -1,17 +1,17 @@
 # CSGO Ping Tester v2.1
 A tool that allows you to check your ping on different regions for Matchmaking, FaceIT, and ESEA servers with only 1-click.
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://www.python.org/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)](https://github.com/Defirence/CSGO-Ping-Tester/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://www.python.org/) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)]
 
 # Current Project Status:
 
-Current Development Status: Frozen/Halted/Stopped. I currently don't have spare time to maintain the servers and code for this project as I'm working full time. If you would like to maintain or fork this project, go ahead, but PLEASE use the original licence from the original author in your fork/clone to avoid any legal issues.
+Current Development Status: Frozen
+
+I currently don't have spare time to maintain the servers and code for this project as I'm working full time. If you would like to maintain or fork this project, go ahead, but PLEASE use the original licence from the original author in your fork/clone to avoid any legal issues. I'm changing some things here and there as I get the time to but with the current state of the world and also my personal life I unfortunately don't have a lot of time to maintain the code for this.
 
 As soon as I have time and environments to compile new builds for different OS'ses (Linux and MacOS) I'll commit and release as soon as possible.
 
-Written in Python with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
-
-I've managed to also tweak a few things so this entire program should run natively on MacOS, Linux, Unix and Windows.
+Written in Python 3.8 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 Please see "Releases" for latest builds + releases.
 
@@ -26,9 +26,15 @@ Windows: None, all included libraries are in the compiled .exe file.
 
 # Instructions
 
+MacOS + nix:
+
 Open Terminal, cd to the directory you downloaded it.
 
 wine filename.exe
+
+Windows:
+
+Run the .exe file as per normal
 
 # Download Instructions
 
