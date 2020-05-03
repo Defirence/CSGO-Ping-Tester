@@ -435,7 +435,9 @@ class Window(Frame):
             result = "Ping Unsuccessful"
         tkinter.messagebox.showinfo("Complete", result)
 
-    #def valve_eue_one(self):
+    # COMMENTING OUT THIS FUNCTION BECAUSE THE SERVER IS NO LONGER RESPONDING
+    # AS PER ISSUE #7
+    # def valve_eue_one(self):
     #
     #    print("Pinging Valve EUE Relay 1")
     #    hostname = "146.66.155.12"
@@ -523,16 +525,18 @@ class Window(Frame):
             result = "Ping Unsuccessful"
         tkinter.messagebox.showinfo("Complete", result)
 
-    def valve_poland_one(self):
-
-        print("Pinging Valve Poland One")
-        hostname = "155.133.228.100"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            result = "Ping Successful"
-        else:
-            result = "Ping Unsuccessful"
-        tkinter.messagebox.showinfo("Complete", result)
+    # COMMENTING THIS OUT AS THE SERVER IS NO LONGER RESPONDING
+    # AS PER ISSUE #8
+    # def valve_poland_one(self):
+    #
+    #    print("Pinging Valve Poland One")
+    #    hostname = "155.133.228.100"
+    #    response = os.system("ping " + hostname)
+    #    if response == 0:
+    #        result = "Ping Successful"
+    #    else:
+    #        result = "Ping Unsuccessful"
+    #    tkinter.messagebox.showinfo("Complete", result)
 
     def valve_poland_two(self):
 
