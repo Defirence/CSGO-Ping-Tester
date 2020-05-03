@@ -29,7 +29,7 @@ class Window(Frame):
 
     def init_window(self):
 
-        self.master.title('CSGO Ping Tester v2.1 by Defirence')
+        self.master.title('CSGO Ping Tester v2.2 by Defirence')
 
         self.pack(fill=BOTH, expand=1)
 
@@ -97,10 +97,10 @@ class Window(Frame):
         faceitswedenButton = Button(self, text="FACEIT Sweden", command=self.faceitsweden)
         faceitswedenButton.place(x=140, y=168)
 
-        faceitsouthafricafiveButton = Button(self, text="FACEIT South Africa Five", command=self.faceitsouthafricafive)
+        faceitsouthafricafiveButton = Button(self, text="FACEIT South Africa 5", command=self.faceitsouthafricafive)
         faceitsouthafricafiveButton.place(x=140, y=192)
 
-        faceitsouthafricasevenButton = Button(self, text="FACEIT South Africa Seven",
+        faceitsouthafricasevenButton = Button(self, text="FACEIT South Africa 7",
                                               command=self.faceitsouthafricaseven)
         faceitsouthafricasevenButton.place(x=140, y=216)
 
@@ -108,37 +108,31 @@ class Window(Frame):
         # Valve Matchmaking Relay Buttons #
         ###################################
 
-        valvemm_euw_oneButton = Button(self, text="Valve EU West 1 Relay", command=self.valve_euw_one)
+        valvemm_euw_oneButton = Button(self, text="Valve EU West Relay 1", command=self.valve_euw_one)
         valvemm_euw_oneButton.place(x=308, y=0)
 
-        valvemm_euw_twoButton = Button(self, text="Valve EU West 2 Relay", command=self.valve_euw_two)
+        valvemm_euw_twoButton = Button(self, text="Valve EU West Relay 2", command=self.valve_euw_two)
         valvemm_euw_twoButton.place(x=308, y=24)
 
-        valvemm_eue_oneButton = Button(self, text="Valve EU East Relay 1", command=self.valve_eue_one)
-        valvemm_eue_oneButton.place(x=308, y=48)
-
         valvemm_eue_twoButton = Button(self, text="Valve EU East Relay 2", command=self.valve_eue_two)
-        valvemm_eue_twoButton.place(x=308, y=72)
+        valvemm_eue_twoButton.place(x=308, y=48)
 
-        valvemm_sweden_oneButton = Button(self, text="Valve Sweden 1 Relay", command=self.valve_sweden_one)
-        valvemm_sweden_oneButton.place(x=308, y=96)
+        valvemm_sweden_oneButton = Button(self, text="Valve Sweden Relay 1", command=self.valve_sweden_one)
+        valvemm_sweden_oneButton.place(x=308, y=72)
 
         valvemm_mideastButton = Button(self, text="Valve Middle East Relay", command=self.valve_middleeast)
-        valvemm_mideastButton.place(x=308, y=120)
+        valvemm_mideastButton.place(x=308, y=96)
 
-        valvemm_poland_oneButton = Button(self, text="Valve Poland 1 Relay", command=self.valve_poland_one)
-        valvemm_poland_oneButton.place(x=308, y=144)
+        valvemm_poland_twoButton = Button(self, text="Valve Poland Relay 2", command=self.valve_poland_two)
+        valvemm_poland_twoButton.place(x=308, y=120)
 
-        valvemm_poland_twoButton = Button(self, text="Valve Poland 2 Relay", command=self.valve_poland_two)
-        valvemm_poland_twoButton.place(x=308, y=168)
-
-        valvemm_southafrica_oneButton = Button(self, text="Valve South Africa 1 Relay",
+        valvemm_southafrica_oneButton = Button(self, text="Valve South Africa Relay 1",
                                                command=self.valve_southafrica_one)
-        valvemm_southafrica_oneButton.place(x=308, y=192)
+        valvemm_southafrica_oneButton.place(x=308, y=144)
 
-        valvemm_southafrica_twoButton = Button(self, text="Valve South Africa 2 Relay",
+        valvemm_southafrica_twoButton = Button(self, text="Valve South Africa Relay 2",
                                                command=self.valve_southafrica_two)
-        valvemm_southafrica_twoButton.place(x=308, y=216)
+        valvemm_southafrica_twoButton.place(x=308, y=168)
 
         ##################
         # ESEA Functions #
@@ -161,13 +155,10 @@ class Window(Frame):
         hostname = "37.122.249.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_gbtwo(self):
 
@@ -175,13 +166,10 @@ class Window(Frame):
         hostname = "46.166.179.179"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_francetwo(self):
 
@@ -189,13 +177,10 @@ class Window(Frame):
         hostname = "46.105.104.65"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_francethree(self):
 
@@ -203,13 +188,10 @@ class Window(Frame):
         hostname = "176.31.234.4"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_francefour(self):
 
@@ -217,13 +199,10 @@ class Window(Frame):
         hostname = "5.39.72.43"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_netherlandsone(self):
 
@@ -231,13 +210,10 @@ class Window(Frame):
         hostname = "77.247.178.10"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_netherlandstwo(self):
 
@@ -245,13 +221,10 @@ class Window(Frame):
         hostname = "109.201.133.100"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_sweden(self):
 
@@ -259,13 +232,10 @@ class Window(Frame):
         hostname = "37.0.123.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_spain(self):
 
@@ -273,13 +243,10 @@ class Window(Frame):
         hostname = "82.98.141.43"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def esea_turkey(self):
 
@@ -287,13 +254,10 @@ class Window(Frame):
         hostname = "31.210.68.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     #########################
     # END OF ESEA FUNCTIONS #
@@ -309,13 +273,10 @@ class Window(Frame):
         hostname = "88.198.52.17"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitgermanythree(self):
 
@@ -323,13 +284,10 @@ class Window(Frame):
         hostname = "46.4.35.143"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitgbone(self):
 
@@ -337,13 +295,10 @@ class Window(Frame):
         hostname = "82.145.38.91"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitgbtwo(self):
 
@@ -351,13 +306,10 @@ class Window(Frame):
         hostname = "185.16.86.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitgbthree(self):
 
@@ -365,13 +317,10 @@ class Window(Frame):
         hostname = "87.117.219.99"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitfrancetwo(self):
 
@@ -379,13 +328,10 @@ class Window(Frame):
         hostname = "163.172.8.51"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitfrancethree(self):
 
@@ -393,13 +339,10 @@ class Window(Frame):
         hostname = "195.154.170.125"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitnetherlandsone(self):
 
@@ -407,13 +350,10 @@ class Window(Frame):
         hostname = "46.166.189.17"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitnetherlandstwo(self):
 
@@ -421,13 +361,10 @@ class Window(Frame):
         hostname = "185.16.84.57"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitsweden(self):
 
@@ -435,13 +372,10 @@ class Window(Frame):
         hostname = "185.62.207.33"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitsouthafricafive(self):
 
@@ -449,13 +383,10 @@ class Window(Frame):
         hostname = "165.73.240.115"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def faceitsouthafricaseven(self):
 
@@ -463,13 +394,10 @@ class Window(Frame):
         hostname = "165.73.240.116"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     ###########################
     # END OF FACEIT FUNCTIONS #
@@ -485,13 +413,10 @@ class Window(Frame):
         hostname = "146.66.153.12"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_euw_two(self):
 
@@ -499,27 +424,10 @@ class Window(Frame):
         hostname = "146.66.153.12"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
-
-    def valve_eue_one(self):
-
-        print("Pinging Valve EUE Relay 1")
-        hostname = "146.66.155.12"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            ping = "Ping Successful"
-        else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_eue_two(self):
 
@@ -527,13 +435,10 @@ class Window(Frame):
         hostname = "146.66.155.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_singapore(self):
 
@@ -541,13 +446,10 @@ class Window(Frame):
         hostname = "103.28.54.3"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_singapore_two(self):
 
@@ -555,13 +457,10 @@ class Window(Frame):
         hostname = "103.10.124.9"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_singapore_three(self):
 
@@ -569,13 +468,10 @@ class Window(Frame):
         hostname = "45.121.184.1"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_middleeast(self):
 
@@ -583,13 +479,10 @@ class Window(Frame):
         hostname = "185.25.183.4"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_sweden_one(self):
 
@@ -597,13 +490,10 @@ class Window(Frame):
         hostname = "146.66.156.211"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_sweden_two(self):
 
@@ -611,27 +501,10 @@ class Window(Frame):
         hostname = "146.66.180.211"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
-
-    def valve_poland_one(self):
-
-        print("Pinging Valve Poland One")
-        hostname = "155.133.228.100"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            ping = "Ping Successful"
-        else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_poland_two(self):
 
@@ -639,13 +512,10 @@ class Window(Frame):
         hostname = "155.133.241.24"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_southafrica_one(self):
 
@@ -653,13 +523,10 @@ class Window(Frame):
         hostname = "155.133.238.162"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_southafrica_two(self):
 
@@ -667,13 +534,10 @@ class Window(Frame):
         hostname = "155.133.238.163"
         response = os.system("ping " + hostname)
         if response == 0:
-            ping = "Ping Successful"
+            result = "Ping Successful"
         else:
-            ping = "Ping Unsuccessful"
-
-        print(ping)
-
-        return ping
+            result = "Ping Unsuccessful"
+        tkinter.messagebox.showinfo("Complete", result)
 
     def client_exit(self):
         sys.exit()
