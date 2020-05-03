@@ -435,16 +435,16 @@ class Window(Frame):
             result = "Ping Unsuccessful"
         tkinter.messagebox.showinfo("Complete", result)
 
-    def valve_eue_one(self):
-
-        print("Pinging Valve EUE Relay 1")
-        hostname = "146.66.155.12"
-        response = os.system("ping " + hostname)
-        if response == 0:
-            result = "Ping Successful"
-        else:
-            result = "Ping Unsuccessful"
-        tkinter.messagebox.showinfo("Complete", result)
+    #def valve_eue_one(self):
+    #
+    #    print("Pinging Valve EUE Relay 1")
+    #    hostname = "146.66.155.12"
+    #    response = os.system("ping " + hostname)
+    #    if response == 0:
+    #        result = "Ping Successful"
+    #    else:
+    #        result = "Ping Unsuccessful"
+    #    tkinter.messagebox.showinfo("Complete", result)
 
     def valve_eue_two(self):
 
