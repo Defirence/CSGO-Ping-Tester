@@ -444,7 +444,7 @@ class Window(Frame):
     #        result = "Ping Successful"
     #    else:
     #        result = "Ping Unsuccessful"
-    #    tkinter.messagebox.showinfo("Complete", result)
+        tkinter.messagebox.showinfo("Complete", result)
 
     def valve_eue_two(self):
 
