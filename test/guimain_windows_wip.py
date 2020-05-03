@@ -97,10 +97,10 @@ class Window(Frame):
         faceitswedenButton = Button(self, text="FACEIT Sweden", command=self.faceitsweden)
         faceitswedenButton.place(x=140, y=168)
 
-        faceitsouthafricafiveButton = Button(self, text="FACEIT South Africa Five", command=self.faceitsouthafricafive)
+        faceitsouthafricafiveButton = Button(self, text="FACEIT South Africa 5", command=self.faceitsouthafricafive)
         faceitsouthafricafiveButton.place(x=140, y=192)
 
-        faceitsouthafricasevenButton = Button(self, text="FACEIT South Africa Seven",
+        faceitsouthafricasevenButton = Button(self, text="FACEIT South Africa 7",
                                               command=self.faceitsouthafricaseven)
         faceitsouthafricasevenButton.place(x=140, y=216)
 
@@ -108,37 +108,31 @@ class Window(Frame):
         # Valve Matchmaking Relay Buttons #
         ###################################
 
-        valvemm_euw_oneButton = Button(self, text="Valve EU West 1 Relay", command=self.valve_euw_one)
+        valvemm_euw_oneButton = Button(self, text="Valve EU West Relay 1", command=self.valve_euw_one)
         valvemm_euw_oneButton.place(x=308, y=0)
 
-        valvemm_euw_twoButton = Button(self, text="Valve EU West 2 Relay", command=self.valve_euw_two)
+        valvemm_euw_twoButton = Button(self, text="Valve EU West Relay 2", command=self.valve_euw_two)
         valvemm_euw_twoButton.place(x=308, y=24)
 
-        valvemm_eue_oneButton = Button(self, text="Valve EU East Relay 1", command=self.valve_eue_one)
-        valvemm_eue_oneButton.place(x=308, y=48)
-
         valvemm_eue_twoButton = Button(self, text="Valve EU East Relay 2", command=self.valve_eue_two)
-        valvemm_eue_twoButton.place(x=308, y=72)
+        valvemm_eue_twoButton.place(x=308, y=48)
 
-        valvemm_sweden_oneButton = Button(self, text="Valve Sweden 1 Relay", command=self.valve_sweden_one)
-        valvemm_sweden_oneButton.place(x=308, y=96)
+        valvemm_sweden_oneButton = Button(self, text="Valve Sweden Relay 1", command=self.valve_sweden_one)
+        valvemm_sweden_oneButton.place(x=308, y=72)
 
         valvemm_mideastButton = Button(self, text="Valve Middle East Relay", command=self.valve_middleeast)
-        valvemm_mideastButton.place(x=308, y=120)
+        valvemm_mideastButton.place(x=308, y=96)
 
-        valvemm_poland_oneButton = Button(self, text="Valve Poland 1 Relay", command=self.valve_poland_one)
-        valvemm_poland_oneButton.place(x=308, y=144)
+        valvemm_poland_twoButton = Button(self, text="Valve Poland Relay 2", command=self.valve_poland_two)
+        valvemm_poland_twoButton.place(x=308, y=120)
 
-        valvemm_poland_twoButton = Button(self, text="Valve Poland 2 Relay", command=self.valve_poland_two)
-        valvemm_poland_twoButton.place(x=308, y=168)
-
-        valvemm_southafrica_oneButton = Button(self, text="Valve South Africa 1 Relay",
+        valvemm_southafrica_oneButton = Button(self, text="Valve South Africa Relay 1",
                                                command=self.valve_southafrica_one)
-        valvemm_southafrica_oneButton.place(x=308, y=192)
+        valvemm_southafrica_oneButton.place(x=308, y=144)
 
-        valvemm_southafrica_twoButton = Button(self, text="Valve South Africa 2 Relay",
+        valvemm_southafrica_twoButton = Button(self, text="Valve South Africa Relay 2",
                                                command=self.valve_southafrica_two)
-        valvemm_southafrica_twoButton.place(x=308, y=216)
+        valvemm_southafrica_twoButton.place(x=308, y=168)
 
         ##################
         # ESEA Functions #
@@ -435,19 +429,6 @@ class Window(Frame):
             result = "Ping Unsuccessful"
         tkinter.messagebox.showinfo("Complete", result)
 
-    # COMMENTING OUT THIS FUNCTION BECAUSE THE SERVER IS NO LONGER RESPONDING
-    # AS PER ISSUE #7
-    # def valve_eue_one(self):
-    #
-    #    print("Pinging Valve EUE Relay 1")
-    #    hostname = "146.66.155.12"
-    #    response = os.system("ping " + hostname)
-    #    if response == 0:
-    #        result = "Ping Successful"
-    #    else:
-    #        result = "Ping Unsuccessful"
-    #    tkinter.messagebox.showinfo("Complete", result)
-
     def valve_eue_two(self):
 
         print("Pinging Valve EUE Relay 2")
@@ -524,19 +505,6 @@ class Window(Frame):
         else:
             result = "Ping Unsuccessful"
         tkinter.messagebox.showinfo("Complete", result)
-
-    # COMMENTING THIS OUT AS THE SERVER IS NO LONGER RESPONDING
-    # AS PER ISSUE #8
-    # def valve_poland_one(self):
-    #
-    #    print("Pinging Valve Poland One")
-    #    hostname = "155.133.228.100"
-    #    response = os.system("ping " + hostname)
-    #    if response == 0:
-    #        result = "Ping Successful"
-    #    else:
-    #        result = "Ping Unsuccessful"
-    #    tkinter.messagebox.showinfo("Complete", result)
 
     def valve_poland_two(self):
 
