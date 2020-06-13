@@ -3,7 +3,6 @@ python:
   - 3.8
 before_install:
   - sudo apt-get update
-  - sudo apt-get install python3.8 -y
   - python --version
   - sudo apt-get install pip
   - sudo pip install pyinstaller
