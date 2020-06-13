@@ -64,6 +64,6 @@ Alternatively click this link: https://github.com/Defirence/CSGO-Ping-Tester/rel
 
 # Screenshots
 
-![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot1.PNG)
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/pingtester1.JPG)
 
-![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/screenshot2.PNG)
+![alt text](https://github.com/Defirence/CSGO-Ping-Tester/blob/master/screenshots/pingtester2.JPG)
