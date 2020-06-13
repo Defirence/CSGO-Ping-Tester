@@ -4,5 +4,4 @@ python:
 before_install:
   - sudo apt-get update
   - python --version
-  - sudo apt-get install pip
   - sudo pip install pyinstaller
