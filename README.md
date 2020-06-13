@@ -18,7 +18,7 @@ From 03-05-2020 I have added a GPG key which will be used to sign all commits fr
 
 Archived - It's been a fun almost 2 years working on this project and I've learned a lot. But unfortunately the time has come to archive it as Python isn't friendly with the requirments I have in mind for this project. Please keep an eye out as I'll be re-writing the whole project from scratch to be more user friendly, have automated testing + builds etc.
 
-Written in Python 3.8.1 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
+Written in Python 3.8.3 with Tkinter as GUI Library. Standard GPL 3.0 Licence carried over.
 
 Please see "Releases" for builds + releases.
 
